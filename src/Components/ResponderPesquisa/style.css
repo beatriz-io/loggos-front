@@ -1,0 +1,66 @@
+*{
+    font-family: 'Poppins';
+}
+
+.form-responder-pesquisa h1{
+    font-weight: 400;    
+    text-align: center;
+    color: #6827A8;    
+    font-weight: 400;    
+    margin-bottom: 20px;
+}
+
+.form-responder-pesquisa input[type=submit]{
+    height: 40px;
+    align-content: center;
+    background-color: #6827A8;
+    text-align: center;
+
+}
+
+.container-resposta{
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 800px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-left: 10px solid #6827A8;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-resposta input{
+    width: 400px;
+    height: 40px;
+    top: 210px;
+    background-color: #fff;    
+    border: none;
+    border-bottom: solid 1px #000;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.container-resposta input[type=checkbox], .container-resposta input[type=radio]{
+    height: 20px;
+    width: 20px;
+    
+}
+.opcoes-cb, .opcoes-rb{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container-resposta label{
+    margin-left: 10px;
+}
+
+.container-resposta h3{    
+    margin: 5px 10px 10px 10px;   
+    font-weight: 400;    
+    font-size: 22px;
+}
+.form-responder-pesquisa input[type=submit] {
+    margin-left: 50%;
+    width: 100px;
+}

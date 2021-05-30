@@ -1,0 +1,107 @@
+.container-criar-pesquisa{
+    font-family: 'Poppins';
+    width: 80%;    
+    margin-top: 30px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-criar-pesquisa h1{
+    color: #6827A8;    
+    font-weight: 400;    
+    margin-bottom: 20px;
+}
+
+.h1style{
+    text-align: center;
+}
+
+.container-criar-pesquisa label{
+    display: flex;
+    font-size: 22px;    
+    margin: 5px 10px 10px 10px;   
+    font-family: 'Poppins'; 
+    
+    
+}
+
+.container-criar-pesquisa input{
+    width: 400px;
+    height: 40px;
+    top: 210px;
+    background-color: #fff;    
+    border: none;
+    border-bottom: solid 1px #000;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.container-criar-pesquisa textarea{
+    width: 400px;
+    height: 100px;
+    background-color: #fff;    
+    border: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    font-family: 'Poppins';
+}
+
+.caixa-pergunta{    
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 800px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-left: 10px solid #6827A8;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.selection-box{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 60px;
+    border-radius: 50px;
+
+}
+
+.selection-box option input{
+    background-color: transparent;
+}
+
+.opcao label{
+    
+    float: left;    
+}
+
+.opcao{
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+.opcao input{
+    background-color: #fff;
+    margin-left: 10px;
+    border: none;
+    width: 349px;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: #6827A8;
+    color: #EAEAEA;
+    border-radius: 5px;
+}
+
+.container-resposta{
+    margin: auto;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+/* .form-register{
+    width: 500px;
+    height: 550px;
+    right: 380px;
+    position: absolute;
+    top: 149px;
+    background-color: #6827A8;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 45px;    
+    justify-content: center;
+    padding: 50px;
+} */
+
+.form-register label{
+    display: flex;
+    font-size: 18px;
+    color: #EAEAEA;    ;
+    margin: 5px 10px 10px 10px;   
+    font-family: 'Poppins'; 
+    
+}
+
+.form-register input{
+    width: 420px;
+    height: 40px;
+    top: 210px;
+    background-color: #EAEAEA;
+    border-radius: 100px;
+    border: none;
+}
+
+.first-block-register, .second-block-register{
+    border-radius: 40px;     
+    margin: 70 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 550px;
+}
+
+.first-block-register h4, .second-block-register h4{
+    color: #6827A8;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin: 10px;
+    width: 550px;
+}
+
+.first-block-register img{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+.first-block-register p, .second-block-register p{
+    background: #38155C;
+    border-radius: 60px;
+    color: #EAEAEA;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;   
+    margin: 20px auto; 
+}
+
+.second-block-register{
+    background-color: #6827A8;
+}
+
+.form-register{
+    width: 100%;
+    justify-content: center;
+}
+
+.form-register input{
+    width: 100%;    
+}
+
+.form-register input[type=checkbox]{
+    width: 15px;
+}
+
+.use-terms{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.form-register button{
+    background: #38155C;
+    border-radius: 60px;
+    color: #EAEAEA;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;   
+    margin: 20px auto; 
+    border: none;    
+    margin-left: 20%;
+}

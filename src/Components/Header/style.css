@@ -1,0 +1,42 @@
+.header{
+    width: 100vw;    
+    height: 60px;
+    background-color: #6827A8;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.content-header{
+    width: 100%;   
+    max-width: 1200px;
+}
+
+.content-header li{
+    padding: 10px;
+    color: #EAEAEA;
+    list-style: none;
+    display: inline;
+    margin: 0 20px;  
+    padding: 10 20px;  
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+
+.header2{
+    background: #38155C;
+    border-radius: 60px;
+
+}
+
+.header img{
+    margin-right: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: #EAEAEA;
+}

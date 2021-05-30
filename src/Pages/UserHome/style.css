@@ -1,0 +1,26 @@
+.user-home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.user-home-content p{
+    margin: 10px;
+    font-size: 28px;
+    line-height: 27px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.user-home-content-active p{    
+    color: #6827A8;
+    border-bottom: 2px solid #6827A8;    
+}
+
+.user-home-content-inactive p {
+    color: #B59DD0;
+    
+}
